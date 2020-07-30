@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik|Rubik+Mono+One&display=swap" rel="stylesheet">
+    <title>mosque</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Rubik', sans-serif;
+        }
+
+        .bgimage {
+            background: url('makka.jpg');
+            background-size: 100% 100%;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .top {
+            border: 2px solid black;
+            border-radius: 0px 0px 30px 30px;
+            width: 30%;
+            height: 25px;
+        }
+
+        .top h6 {
+            display: inline-block;
+            padding: 0px 15px;
+        }
+
+        .top i {
+            padding: 4px 8px;
+
+        }
+
+        .left {
+            /* border: 2px solid blue; */
+            width: 10%;
+            height: 40px;
+            margin: 20px;
+        }
+
+        .left h2 {
+            text-transform: uppercase;
+        }
+
+        .left h6 {
+            text-transform: uppercase;
+            font-size: 8px;
+        }
+
+        .navbar {
+            /* border: 2px solid red; */
+            width: 40%;
+            position: absolute;
+            top: 70px;
+            left: 25rem;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .navbar li {
+            text-transform: uppercase;
+            font-size: 12px;
+            display: inline-block;
+            padding: 0px 8px;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: black;
+            text-transform: uppercase;
+        }
+
+        .navbar li a:hover {
+            color: green;
+            text-decoration: underline;
+        }
+
+        .text {
+            /* border: 2px solid green; */
+            text-transform: uppercase;
+            width: 50%;
+            height: 340px;
+            margin: 40px;
+        }
+
+        .text h1 {
+            font-size: 60px;
+            padding: 20px;
+            text-align: center;
+            color: rgb(1, 49, 39);
+        }
+
+        .text p {
+            padding: 0px 30px;
+        }
+
+        .urdu {
+            /* border: 2px solid orangered; */
+            text-align: center;
+            height: 90px;
+        }
+
+        .urdu p {
+            font-size: 60px;
+            padding: 20px;
+        }
+
+        .btn {
+            border: none;
+            margin: 10px 30px;
+            font-size: 12px;
+            background: turquoise;
+            width: 15%;
+            height: 30px;
+            cursor: pointer;
+            padding: 0px 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bgimage">
+        <div class="top">
+            <h6><i class="fa fa-envelope-o" aria-hidden="true"></i>islam@example.com </h6>
+            <h6><i class="fa fa-phone" aria-hidden="true"></i>+120-423-2355</h6>
+            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-google-plus-official" aria-hidden="true"></i>
+        </div>
+        <div class="left">
+            <h2>Islam</h2>
+            <h6>keep calm & read Quran</h6>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a class="active" href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">sermons</a></li>
+                <li><a href="#">pages</a></li>
+                <li><a href="#">event causes</a></li>
+                <li><a href="#">team</a></li>
+                <li><a href="#">contacts</a></li>
+            </ul>
+        </div>
+        <div class="urdu">
+            <p>لَآ اِلٰهَ اِلَّااللهُ مُحَمَّدٌ رَّسُولُ اللہِ</p>
+        </div>
+        <div class="text">
+            <h1>nothing is <br>impossible with <br>allah</h1>
+            <p>What has reached you was never meant to miss you, and what has missed you was never meant to reach you.”
+                Prophet Muhammad</p>
+            <button class="btn">Read More</button>
+        </div>
+    </div>
+</body>
+
+</html>
